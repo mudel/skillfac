@@ -1,0 +1,42 @@
+.excellence {
+    width: 100%;
+    background-color: white;
+    background-image: url(../img/background.svg);
+    background-position: left top -88px;
+    background-repeat: no-repeat;
+    padding: 0 0 242px 0;
+}
+.excellence__container {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    grid-gap: 100px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.excellence__units ol {
+    list-style-type: none;
+    counter-reset: item;
+}
+.excellence__units li {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    margin: 0 0 86px 0;
+}
+.excellence__form {
+    display: flex;
+    flex-direction: column;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgb(0 0 0 / 5%);
+    padding: 28px 49px;
+    color: #FFFFFF;
+}
+.excellence__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
